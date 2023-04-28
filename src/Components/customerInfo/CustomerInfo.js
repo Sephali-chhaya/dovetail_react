@@ -1,10 +1,10 @@
 import React from "react";
 import { Plus } from "react-bootstrap-icons";
-import { Col, Container, Form, Row, FormCheck, Dropdown } from "react-bootstrap";
-const CustomerInfo = (props ) => {
+import { Col, Container, Form, Row, FormCheck} from "react-bootstrap";
+const CustomerInfo = (props) => {
     return (
         <>
-            <Container style={{backgroundColor:'#f0f0f5'}}>
+            <Container style={{ backgroundColor: '#f0f0f5' }}>
                 <Form>
                     <Row>
                         <Col sm='3'>
@@ -35,12 +35,12 @@ const CustomerInfo = (props ) => {
                                     </Dropdown.Menu>
                                 </Dropdown> */}
                             </Form.Group>
-                        </Col> 
+                        </Col>
                         <Col sm='3'>
                             <Form.Group className="mb-3" controlId="">
                                 <span>Invoice-No.
                                     <FormCheck inline type="checkbox" label="Auto generate" /></span>
-                                <Form.Control type="text" placeholder=""/>
+                                <Form.Control type="text" placeholder="" />
                             </Form.Group>
                         </Col>
                     </Row>
@@ -92,8 +92,8 @@ const CustomerInfo = (props ) => {
                         <Col sm='3'>
                             <Form.Group className="mb-3" controlId="">
                                 <Form.Label>Tax(in)</Form.Label><br />
-                                <Form.Check inline label='CGST+SGST' type="radio" name="check1" checked/>
-                                <Form.Check inline label='IGST' type="radio" name="check1"/>
+                                <Form.Check inline label='CGST+SGST' type="radio" name="check1" checked />
+                                <Form.Check inline label='IGST' type="radio" name="check1" />
                             </Form.Group>
                         </Col>
                         <Col sm='3'>

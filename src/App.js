@@ -1,15 +1,19 @@
-//import logo from './logo.svg';
-//import './App.css';
-import Button_header from './Components/header/Button_header';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CustomerInfo from './Components/customerInfo/CustomerInfo';
-import ItemDetail from './Components/customerItemDetail/ItemDetail';
-import Dashboard from './pages/Dashboard';
+import Home from './pages/homePage/Home';
+import Login from './pages/loginPage/Login';
+import Dashboard from './pages/dashboardPage/Dashboard';
 
 function App() {
   return (
-    <Dashboard/>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Login' element={<Login />} />
+        <Route path='/Dashboard' element={<Dashboard />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
