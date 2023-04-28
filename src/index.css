@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.background-radial-gradient {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(218, 41%, 15%);
+    background-image:linear-gradient(320deg, rgb(23, 43, 77) 42%, rgb(129, 95, 228) 43%);
+  }
+  
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -100px;
+    background: radial-gradient(#ad1fff, #44006b);
+    overflow: hidden;
+  }
+  
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#ad1fff, #44006b);
+    overflow: hidden;
+  }
+  
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
