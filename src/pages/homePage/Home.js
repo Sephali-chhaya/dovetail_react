@@ -5,6 +5,7 @@ import { Button, Container, Row, Col, Form } from 'react-bootstrap';
 import SiteLogo from '..//../Components/Assets/images/SiteLogo.jpg'
 import Nalanda from '..//../Components/Assets/images/fabfinnercropped1.png'
 import Login from '../loginPage/Login';
+import Loader from '../../Components/Loader/Loader';
 
 const Home = () => {
 

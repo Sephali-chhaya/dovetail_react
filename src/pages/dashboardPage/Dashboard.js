@@ -6,6 +6,8 @@ import CustomerInfo from "../../Components/customerInfo/CustomerInfo";
 import { dovetailContext } from "../..";
 import Header from "../../Components/header/dashboardHeader/Header";
 import SideBar from "../../Components/sidebar/SideBar";
+
+import MiniDrawer from "../../Components/sidebar/SideBar2";
 const Dashboard = () => {
     // const server = useContext(dovetailContext);
     return (

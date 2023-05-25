@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ProSidebarProvider } from "react-pro-sidebar";
+import { BrowserRouter } from 'react-router-dom';
+
+import {store} from './redux/store'
+import { Provider } from 'react-redux';
 
 
 //  export const dovetailContext= createContext('http://localhost:49509');
@@ -11,13 +15,18 @@ import { ProSidebarProvider } from "react-pro-sidebar";
  
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-     <ProSidebarProvider>
+
+     <ProSidebarProvider>    
     {/* <dovetailContext.Provider value = "http://localhost:49509"> */}
-    <App />
+    
+    <BrowserRouter>
+        <Provider store={store}>
+            <App />
+        </Provider>
+    </BrowserRouter>
+    
     {/* </dovetailContext.Provider>     */}
     </ProSidebarProvider>
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

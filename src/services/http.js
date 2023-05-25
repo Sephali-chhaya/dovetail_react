@@ -1,7 +1,7 @@
 import axios from "axios";
 
-//const appServiceName = 'http://k-hub.in:82';
-//const appServiceName = 'http://localhost:49509';
+// const appServiceName = 'https://api.publicapis.org';
+const appServiceName = 'http://localhost:8000'; 
 
 class RestfulProvider {
     constructor() {
@@ -34,7 +34,7 @@ class RestfulProvider {
                 })
                 .catch((error) => {
                     reject(
-                        error.response?.data?.message ||
+                        error ||
                         "Server is down, please check after some time !!"
                     );
                 });
