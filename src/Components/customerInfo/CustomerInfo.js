@@ -4,7 +4,11 @@ import { Col, Container, Form, Row, FormCheck} from "react-bootstrap";
 const CustomerInfo = (props) => {
     return (
         <>
+<<<<<<< HEAD
             <Container style={{ backgroundColor: '#f0f0f5' }}>
+=======
+            <div className="container-fluid" style={{ backgroundColor: '#f0f0f5' }}>
+>>>>>>> master
                 <Form>
                     <Row>
                         <Col sm='3'>
@@ -40,7 +44,11 @@ const CustomerInfo = (props) => {
                             <Form.Group className="mb-3" controlId="">
                                 <span>Invoice-No.
                                     <FormCheck inline type="checkbox" label="Auto generate" /></span>
+<<<<<<< HEAD
                                 <Form.Control type="text" placeholder="" />
+=======
+                                {/* <Form.Control type="text" placeholder="" /> */}
+>>>>>>> master
                             </Form.Group>
                         </Col>
                     </Row>
@@ -106,7 +114,11 @@ const CustomerInfo = (props) => {
                     </Row>
                 </Form>
 
+<<<<<<< HEAD
             </Container>
+=======
+            </div>
+>>>>>>> master
         </>
     )
 }

@@ -1,0 +1,15 @@
+.support {
+    background-color: lavender;
+    border-radius: 10%;
+    min-height: auto;
+    min-width: auto;
+    cursor: pointer;
+}
+.cmpnyDrop{
+   position: relative;
+   left: 30%;
+   top: -30px;
+}
+.header{
+    cursor: pointer;
+}

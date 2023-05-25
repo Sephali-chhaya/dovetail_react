@@ -46,7 +46,11 @@ const ItemDetail = (props) => {
     }
     return (
         <>
+<<<<<<< HEAD
             <Container style={{ background: '#f7e6ff' }}>
+=======
+            <div className="container-fluid" style={{ background: '#f7e6ff' }}>
+>>>>>>> master
                 <Form>{
                     data.map((val, i) =>
                         <Row>
@@ -171,7 +175,11 @@ const ItemDetail = (props) => {
                         </Row>
                     )}
                 </Form>
+<<<<<<< HEAD
             </Container>
+=======
+            </div>
+>>>>>>> master
         </>
     )
 };

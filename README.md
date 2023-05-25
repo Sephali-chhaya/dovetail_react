@@ -69,6 +69,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+<<<<<<< HEAD
 
 Packages Installed
 npm i react-router-dom --force
+=======
+npm i react-router-dom
+npm i bootstrap
+npm i react-bootstrap
+npm i react-bootstrap-icons
+npm install @material-ui/core --force
+npm i react-pro-sidebar --force
+>>>>>>> master
